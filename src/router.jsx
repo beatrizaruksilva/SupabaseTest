@@ -6,7 +6,7 @@ import Dashboard from "./components/Dashboard";
 import PrivateRoute from "./components/PrivateRoute";
 
 export const router = createBrowserRouter([
-    { path: "/", element: <App /> },
+    { path: "/", element: <Signin /> },
     { path: "/signup", element: <Signup /> },
     { path: "/signin", element: <Signin /> },
     { path: "/dashboard", element: <PrivateRoute><Dashboard /></PrivateRoute> },
