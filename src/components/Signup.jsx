@@ -50,7 +50,7 @@ const Signup = () => {
                             type="email"
                             id="email"
                             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-200"
-                            placeholder="you@example.com"
+                            placeholder="voce@exemplo.com"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                         />

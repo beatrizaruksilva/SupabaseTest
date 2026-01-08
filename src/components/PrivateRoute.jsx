@@ -6,7 +6,7 @@ const PrivateRoute = ({ children }) => {
     const { session, loading } = UserAuth();
 
     if (loading) {
-        return <div>Loading...</div>;
+        return <div>Carregando...</div>;
     }
 
     if (!session) {
